@@ -113,8 +113,8 @@ local vim = game:GetService('VirtualInputManager');
     CMS = state
    end)
    workspace.ChildAdded:Connect(function(child)
-    if child.Name == "GunDrop" and ATG and GetMurderer() ~= Plr.Character then
-      print("Gun dropped!")
+    if child.Name == "súng rớt kìa" and ATG and GetMurderer() ~= Plr.Character then
+      print("súng rớt kìa!")
       while child and task.wait() do
        if (GetMurderer().Head.Position-child.Position).magnitude < 10 then
         repeat task.wait() until (GetMurderer().Head.Position-child.Position).magnitude > 10
